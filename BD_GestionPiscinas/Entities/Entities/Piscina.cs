@@ -13,6 +13,10 @@ public partial class Piscina
 
     public int? Capacidad { get; set; }
 
+    public string? Servicio { get; set; }
+
+    public int? Precio { get; set; }
+
     public virtual ICollection<PiscinaProducto> PiscinaProductos { get; set; } = new List<PiscinaProducto>();
 
     public virtual ICollection<PiscinaRepuesto> PiscinaRepuestos { get; set; } = new List<PiscinaRepuesto>();
