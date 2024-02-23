@@ -12,7 +12,13 @@ namespace DAL.Interfaces
         TEntity Get(int id);
         IEnumerable<TEntity> GetAll();
         IEnumerable<TEntity> Find(Expression<Func<TEntity, bool>> predicate);
+
+        // This method was not in the videos, but I thought it would be useful to add.
+
+
         bool Add(TEntity entity);
+
+
         bool Update(TEntity entity);
         bool Remove(TEntity entity);
 
