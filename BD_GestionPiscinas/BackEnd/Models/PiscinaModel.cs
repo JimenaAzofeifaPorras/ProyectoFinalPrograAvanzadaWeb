@@ -10,8 +10,5 @@
 
         public int? Capacidad { get; set; }
 
-        public string? Servicio { get; set; }
-
-        public int? Precio { get; set; }
     }
 }

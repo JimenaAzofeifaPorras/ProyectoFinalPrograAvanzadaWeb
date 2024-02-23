@@ -40,7 +40,7 @@ namespace BackEnd.Controllers
 
             if (result)
             {
-                return "Categoría Agregada Correctamente.";
+                return "Cliente Agregado Correctamente.";
             }
             return "Hubo un error al agregar  la entidad.";
 
@@ -54,7 +54,7 @@ namespace BackEnd.Controllers
 
             if (result)
             {
-                return "Categoría Editada Correctamente.";
+                return "Cliente Editado Correctamente.";
             }
             return "Hubo un error al editar  la entidad.";
         }
@@ -69,7 +69,7 @@ namespace BackEnd.Controllers
 
             if (result)
             {
-                return "Categoría Eliminada Correctamente.";
+                return "Cliente Eliminado Correctamente.";
             }
             return "Hubo un error al eliminar  la entidad.";
 

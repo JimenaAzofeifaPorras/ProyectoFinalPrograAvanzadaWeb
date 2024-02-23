@@ -27,11 +27,9 @@ namespace BackEnd.Services.Implementations
         PiscinaModel Convertir(Piscina piscina)
         {
             return new PiscinaModel
-            {
-                Precio = piscina.Precio,
+            { 
                 PiscinaId = piscina.PiscinaId,
                 Capacidad = piscina.Capacidad,
-                Servicio = piscina.Servicio,
                 Tamano = piscina.Tamano,
                 Ubicacion = piscina.Ubicacion
             };
@@ -41,10 +39,8 @@ namespace BackEnd.Services.Implementations
         {
             return new Piscina
             {
-                Precio = piscina.Precio,
                 PiscinaId = piscina.PiscinaId,
                 Capacidad = piscina.Capacidad,
-                Servicio = piscina.Servicio,
                 Tamano = piscina.Tamano,
                 Ubicacion = piscina.Ubicacion
             };
