@@ -12,23 +12,23 @@ namespace DAL.Implementations
     {
 
         public IClienteDAL _clienteDAL { get; }
-        public IProductoDAL _productoDAL { get; }
+        public IPiscinaProductoDAL _productoDAL { get; }
         public IPiscinaDAL _piscinaDAL { get; }
         public IServicioPiscinaDAL _servicioPiscinaDAL { get; }
         public IEmpleadoDAL _empleadoDAL { get; }
         public IReservaDAL _reservaDAL { get; }
-        public IRepuestoDAL _repuestoDAL { get; }
+        public IPiscinaRepuestoDAL _repuestoDAL { get; }
 
         private readonly GestionPiscinasContext _context;
 
         public UnidadDeTrabajo(GestionPiscinasContext gestionPiscinasContext,
                                 IClienteDAL clienteDAL,
-                                IProductoDAL productoDAL,
+                                IPiscinaProductoDAL productoDAL,
                                 IPiscinaDAL piscinaDAL,
                                 IServicioPiscinaDAL servicioPiscinaDAL,
                                 IEmpleadoDAL empleadoDAL,
                                 IReservaDAL reservaDAL,
-                                IRepuestoDAL repuestoDAL
+                                IPiscinaRepuestoDAL repuestoDAL
                                 )
         {
             _context = gestionPiscinasContext;
