@@ -54,7 +54,6 @@ namespace BackEnd.Services.Implementations
         public ClienteModel GetById(int id)
         {
             var entity = _unidadDeTrabajo._clienteDAL.Get(id);
-
             ClienteModel clienteModel = Convertir(entity);
             return clienteModel;
         }
